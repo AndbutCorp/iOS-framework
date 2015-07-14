@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/AndbutCorp/iOS-framework.git", :tag => "0.2.2" }
 
 
-  s.source_files  = 'Userhabit.framework/'
+  s.source_files  = 'framework/'
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
