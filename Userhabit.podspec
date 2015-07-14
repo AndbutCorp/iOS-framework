@@ -7,14 +7,15 @@ Pod::Spec.new do |s|
 
   s.description  = <<-DESC
                      Userhabit's iOS framework cocoaPods
+		     This version is 0.2.2
+		     Your app regist userhabit.io
                    DESC
 
   s.homepage     = "http://userhabit.io"
 
-  s.license      = "COMMECIAL"
-  # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  s.license      = "ESD"
 
-  s.author             = { "andbut" => "andbut@userhabit.io" }
+  s.author             = { "andbut" => "userhabit@andbut.com" }
 
 
   s.platform     = :ios, "5.0"
@@ -22,7 +23,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/AndbutCorp/iOS-framework.git", :tag => "0.2.2" }
 
 
-  s.source_files  = "Userhabit.framework", "Userhabit.framework/**/*"
+  s.source_files  = "Userhabit.framework/**/*.{xml, plist}"
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
