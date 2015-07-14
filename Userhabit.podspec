@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   s.summary      = “Userhabit iOS App analytics framework“
 
   s.description  = <<-DESC
-                   Show your app’s usability.
+                   "Show your app’s usability."
                    DESC
 
   s.homepage     = "http://userhabit.io”
@@ -32,11 +32,11 @@ Pod::Spec.new do |s|
   s.platform     = :ios
   s.platform     = :ios, "5.0"
 
-  s.source       = { :git => "https://github.com/AndbutCorp/iOS-framework", :tag => “0.2.2” }
+  s.source       = { :git => "https://github.com/AndbutCorp/iOS-framework.git", :tag => “0.2.2” }
 
 
   s.source_files  = “Userhabit.framework”, “Userhabit.framework/**/*”
 
-
+  s.ios.deployment_target = '5.0'
   s.requires_arc = true
 end
