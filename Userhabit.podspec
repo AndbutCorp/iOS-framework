@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
 
   s.homepage     = "http://userhabit.io"
 
-  s.license      = "ESD"
+  s.license      = { :type => 'COMMERCIAL', :file => 'LISENCE'}
 
   s.author             = { "andbut" => "userhabit@andbut.com" }
 
@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/AndbutCorp/iOS-framework.git", :tag => "0.2.2" }
 
 
-  s.source_files  = "Userhabit.framework/**/*.{xml, plist}"
+  s.source_files  = 'Userhabit.framework/*'
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
