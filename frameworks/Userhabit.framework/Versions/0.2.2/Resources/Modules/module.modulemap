@@ -1,6 +1,0 @@
-framework module Userhabit {
-  umbrella header "Userhabit.h"
-
-  export *
-  module * { export * }
-}
